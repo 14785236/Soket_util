@@ -8,7 +8,6 @@ public class MqttUtil {
     private MqttClient client;
     private String brokerUrl;
     private String clientId;
-
     /**
      * 构造函数，用于初始化 MQTT 客户端。
      *

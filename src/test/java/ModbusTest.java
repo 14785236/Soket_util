@@ -9,7 +9,6 @@ public class ModbusTest {
         int coilRef = 0; // 线圈地址
         int valueToWrite = 12345; // 要写入的寄存器值
         boolean stateToWrite = true; // 要写入的线圈状态
-
         ModbusUtils modbusUtils = new ModbusUtils(ipAddress, port);
 
         // 连接 Modbus 设备

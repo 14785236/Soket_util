@@ -15,7 +15,6 @@ public class Mqtt {
 
             // 连接到 MQTT 代理
             mqttUtil.connect();
-
             // 发布消息
             mqttUtil.publish("sensors/temperature", "22.5", 2);
 

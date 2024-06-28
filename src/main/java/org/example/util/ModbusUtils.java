@@ -8,7 +8,6 @@ import com.ghgande.j2mod.modbus.net.TCPMasterConnection;
 import com.ghgande.j2mod.modbus.procimg.SimpleRegister;
 
 import java.net.InetAddress;
-
 /**
  * Modbus 工具类，用于连接 Modbus 设备并执行读写操作。
  */

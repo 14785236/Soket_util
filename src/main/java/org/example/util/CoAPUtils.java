@@ -54,7 +54,6 @@ public class CoAPUtils {
             return null;
         }
     }
-
     /**
      * 启动一个简单的 CoAP 服务器。
      *

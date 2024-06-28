@@ -9,7 +9,6 @@ public class TcpUtils {
     private Socket socket;
     private BufferedReader reader;
     private BufferedWriter writer;
-
     /**
      * 连接到指定服务器。
      *
